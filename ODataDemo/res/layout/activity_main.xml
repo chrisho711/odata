@@ -24,10 +24,11 @@
         android:onClick="doQuery"
         android:text="查詢" />
 
-    <ListView
-        android:id="@+id/listView1"
+    <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
-    </ListView>
+        android:layout_height="wrap_content" 
+        android:id="@+id/dataTable">
+
+    </TableLayout>
 
 </LinearLayout>
